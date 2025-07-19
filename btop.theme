@@ -1,0 +1,82 @@
+# Theme: hakker
+# By: JTekk
+
+# Main bg
+theme[main_bg]="#1a1b26"
+
+# Main text color
+theme[main_fg]="#8dd1f7"
+
+# Title color for boxes
+theme[title]="#8dd1f7"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#2596be"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#2596be"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#EBF8FF"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#565f89"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#8dd1f7"
+
+# Cpu box outline color
+theme[cpu_box]="#2596be"
+
+# Memory/disks box outline color
+theme[mem_box]="#2596be"
+
+# Net up/down box outline color
+theme[net_box]="#2596be"
+
+# Processes box outline color
+theme[proc_box]="#2596be"
+
+# Box divider line and small boxes line color
+theme[div_line]="#2596be"
+
+# Temperature graph colors
+theme[temp_start]="#8dd1f7"
+theme[temp_mid]="#2596be"
+theme[temp_end]="#EBF8FF"
+
+# CPU graph colors
+theme[cpu_start]="#8dd1f7"
+theme[cpu_mid]="#2596be"
+theme[cpu_end]="#EBF8FF"
+
+# Mem/Disk free meter
+theme[free_start]="#8dd1f7"
+theme[free_mid]="#2596be"
+theme[free_end]="#EBF8FF"
+
+# Mem/Disk cached meter
+theme[cached_start]="#8dd1f7"
+theme[cached_mid]="#2596be"
+theme[cached_end]="#EBF8FF"
+
+# Mem/Disk available meter
+theme[available_start]="#8dd1f7"
+theme[available_mid]="#2596be"
+theme[available_end]="#EBF8FF"
+
+# Mem/Disk used meter
+theme[used_start]="#8dd1f7"
+theme[used_mid]="#2596be"
+theme[used_end]="#EBF8FF"
+
+# Download graph colors
+theme[download_start]="#8dd1f7"
+theme[download_mid]="#2596be"
+theme[download_end]="#EBF8FF"
+
+# Upload graph colors
+theme[upload_start]="#8dd1f7"
+theme[upload_mid]="#2596be"
+theme[upload_end]="#EBF8FF"
+
