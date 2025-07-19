@@ -111,6 +111,9 @@ omarchy-theme-hakker/
 - Built for productivity and visual appeal
 - Designed for Omarchy ecosystem but can be used in Wayland/Hyprland ecosystem
 
+## Disclaimer
+The images were created in Gemini.  The files were modified, with prompt instrucitons, utilizing claude-sonnet
+
 ---
 
 **Enjoy your hakker-themed desktop!** 
