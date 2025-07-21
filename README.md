@@ -21,6 +21,17 @@ The hakker theme uses a carefully crafted color palette that provides excellent 
 ### Setup Instructions
 ```bash
 omarchy-theme-install https://github.com/joaquinmeza/omarchy-hakker-theme
+```
+
+### Starship Configuration
+To use the hakker theme with Starship prompt, set the environment variable:
+```bash
+export STARSHIP_CONFIG="$HOME/.config/omarchy/themes/hakker/starship.toml"
+```
+
+Add this line to your shell profile (`~/.bashrc`, `~/.zshrc`, or `~/.config/fish/config.fish`) for permanent setup.
+
+For more information about Starship configuration, visit [https://starship.rs/](https://starship.rs/).
 
 ## Configuration Details
 
@@ -55,8 +66,10 @@ All colors are defined in their respective configuration files:
 - **waybar.css**: Status bar colors
 - **wofi.css**: Launcher colors
 - **alacritty.toml**: Terminal colors
+- **kitty-theme.conf**: Kitty terminal colors
 - **btop.theme**: System monitor colors
 - **neovim.lua**: Editor colors
+- **starship.toml**: Shell prompt colors
 
 ### Adjusting Transparency
 Modify the opacity values in `hyprland.conf`:
@@ -85,6 +98,11 @@ windowrulev2 = opacity 0.95 0.95,class:^(app)$
    - Disable animations if needed
    - Check GPU drivers
 
+4. **Starship not loading:**
+   - Verify the `STARSHIP_CONFIG` environment variable is set correctly
+   - Check that the starship.toml file exists in the specified path
+   - Restart your terminal after setting the environment variable
+
 ### Performance Tips
 - Use `disable_direct_scanout = true` for better transparency
 - Adjust blur settings based on your hardware
@@ -93,26 +111,31 @@ windowrulev2 = opacity 0.95 0.95,class:^(app)$
 ## File Structure
 ```
 omarchy-theme-hakker/
-├── hyprland.conf      # Window manager configuration
-├── waybar.css         # Status bar styling
-├── wofi.css          # Application launcher styling
-├── hyprlock.conf     # Screen locker configuration
-├── mako.ini          # Notification daemon settings
-├── alacritty.toml    # Terminal emulator colors
-├── neovim.lua        # Text editor colorscheme
-├── btop.theme        # System monitor theme
-└── README.md         # This file
+├── hyprland.conf            # Window manager configuration
+├── waybar.css               # Status bar styling
+├── wofi.css                 # Application launcher styling
+├── hyprlock.conf            # Screen locker configuration
+├── mako.ini                 # Notification daemon settings
+├── alacritty.toml           # Terminal emulator colors
+├── kitty-hakker-theme.conf  # Kitty terminal colors
+├── neovim.lua               # Text editor colorscheme
+├── starship.toml            # Shell prompt configuration
+├── btop.theme               # System monitor theme
+└── README.md                # This file
 ```
-
 
 ## Acknowledgments
 
 - Inspired by modern desktop aesthetics
 - Built for productivity and visual appeal
 - Designed for Omarchy ecosystem but can be used in Wayland/Hyprland ecosystem
+- Starship prompt integration for enhanced shell experience
 
 ## Disclaimer
-The images were created in Gemini.  The files were modified, with prompt instrucitons, utilizing claude-sonnet
+The images were created in Gemini. The files were modified, with prompt instructions, utilizing claude-sonnet
+
+## Bonus
+I've added both a kitty and starship files to go with these themes.  By default, these 2 do not come with omarchy
 
 ---
 

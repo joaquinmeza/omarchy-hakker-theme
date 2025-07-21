@@ -1,29 +1,106 @@
+# Hakker Theme - Blue Grayscale Palette
+
 [colors]
 [colors.primary]
-background = '#1a1b26'
-foreground = '#8dd1f7'
+background = '#0a0a0f'
+foreground = '#e8f4fd'
 
 # Normal colors
 [colors.normal]
-black = '#1a1b26'
-red = '#f7768e'
-green = '#9ece6a'
-yellow = '#e0af68'
-blue = '#2596be'
-magenta = '#ad8ee6'
-cyan = '#8dd1f7'
-white = '#565f89'
+black = '#0a0a0f'
+red = '#7ba7d1'
+green = '#8bd1c1'
+yellow = '#8ba7d1'
+blue = '#7ba7d1'
+magenta = '#b87bd1'
+cyan = '#7bd1c1'
+white = '#4a4a5a'
 
 # Bright colors
 [colors.bright]
-black = '#444b6a'
-red = '#ff7a93'
-green = '#b9f27c'
-yellow = '#ff9e64'
-blue = '#2596be'
-magenta = '#bb9af7'
-cyan = '#8dd1f7'
-white = '#EBF8FF'
+black = '#1a1a2a'
+red = '#8ba7d1'
+green = '#8bd1c1'
+yellow = '#8ca7d1'
+blue = '#8ba7d1'
+magenta = '#c87bd1'
+cyan = '#8bd1c1'
+white = '#f8f8fd'
 
 [colors.selection]
-background = '#2596be'
+background = '#e8f4fd'
+text = '#0a0a0f'
+
+# Cursor colors
+[colors.cursor]
+text = '#0a0a0f'
+cursor = '#e8f4fd'
+
+# Additional colors for extended palette
+[[colors.indexed_colors]]
+index = 16
+color = '#0a0a0f'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#1a1a2a'
+
+[[colors.indexed_colors]]
+index = 18
+color = '#2a2a3a'
+
+[[colors.indexed_colors]]
+index = 19
+color = '#3a3a4a'
+
+[[colors.indexed_colors]]
+index = 20
+color = '#4a4a5a'
+
+[[colors.indexed_colors]]
+index = 21
+color = '#5a5a6a'
+
+[[colors.indexed_colors]]
+index = 22
+color = '#6a6a7a'
+
+[[colors.indexed_colors]]
+index = 23
+color = '#7a7a8a'
+
+[[colors.indexed_colors]]
+index = 24
+color = '#8a8a9a'
+
+[[colors.indexed_colors]]
+index = 25
+color = '#9a9aaa'
+
+[[colors.indexed_colors]]
+index = 26
+color = '#aaaabb'
+
+[[colors.indexed_colors]]
+index = 27
+color = '#babacc'
+
+[[colors.indexed_colors]]
+index = 28
+color = '#cacadd'
+
+[[colors.indexed_colors]]
+index = 29
+color = '#dadaee'
+
+[[colors.indexed_colors]]
+index = 30
+color = '#eaeaff'
+
+[[colors.indexed_colors]]
+index = 31
+color = '#fafaff'
+
+# Window configuration
+[window]
+opacity = 0.95
