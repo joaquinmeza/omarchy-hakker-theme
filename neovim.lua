@@ -41,7 +41,7 @@ return {
 				gitsigns = true,
 				nvimtree = true,
 				telescope = true,
-				notify = false,
+				notify = true,
 				mini = false,
 			},
 			color_overrides = {
@@ -50,6 +50,7 @@ return {
 					mantle = "#1a1b26",
 					crust = "#1a1b26",
 					text = "#8dd1f7",
+					comments = "#000000",
 					subtext0 = "#8dd1f7",
 					subtext1 = "#8dd1f7",
 					overlay0 = "#565f89",
